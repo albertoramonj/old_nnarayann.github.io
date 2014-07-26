@@ -1,0 +1,115 @@
+
+
+/*
+@font-face {
+    font-family: 'albertoramon';
+    src: url('../fonts/albertoramon.eot');
+    src: url('../fonts/albertoramon.eot?iefix') format('eot'),
+         url('../fonts/albertoramon.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+*/
+
+@font-face {
+	font-family: 'albertoramon';
+	src: url('../fonts/helveticaneueultralight-webfont.eot');
+	src: local('â˜º'), url('../fonts/helveticaneueultralight-webfont.woff') format('woff'), url('../fonts/helveticaneueultralight-webfont.ttf') format('truetype'), url('../fonts/helveticaneueultralight-webfont.svg#webfonteu8Gu1ai') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+body {
+
+	background: url('../images/dark-bg.png') repeat top left;
+}
+
+.tipsy { 
+	line-height: 17px; 
+	font-family: 'albertoramon', sans-serif; 	
+	color: #ffffff;
+	letter-spacing: 0.15em;
+ }
+
+div page_wrapper {
+}
+		
+.container {
+
+
+	padding-top: 250px;
+	padding-left: 5%;
+}	
+
+.portfolio {
+	float: right;
+	padding-top: 165px;
+	padding-right: 5%;
+}
+	
+ul.social {
+	list-style: none;
+	float: left;
+	margin-left: -40px;
+}
+	ul.social li {
+		float: left;
+		margin-right: 5px;
+	}
+		ul.social li a {
+			width: 24px;
+			height: 24px;
+			display: block;
+			text-indent: -99999px;
+			font-family: 'albertoramon', sans-serif;
+			color: #f0f0f0;
+			font-size: 12px;
+			font-weight: normal;
+			letter-spacing: 0.10em;
+			background: url('../images/light-social2.png') no-repeat top left;
+		}
+		ul.social li.facebook a 				{ background-position: 0px 0px; }
+			ul.social li.facebook a:hover { background-position: -24px 0px; }
+		ul.social li.twitter a 					{ background-position: 0px -24px; }
+			ul.social li.twitter a:hover 	{ background-position: -24px -24px; }
+		ul.social li.dribbble a 				{ background-position: 0px -48px; }
+			ul.social li.dribbble a:hover { background-position: -24px -48px; }
+		ul.social li.google a 					{ background-position: 0px -72px; }
+			ul.social li.google a:hover 	{ background-position: -24px -72px; }
+		ul.social li.flickr a 					{ background-position: 0px -96px; }
+			ul.social li.flickr a:hover 	{ background-position: -24px -96px; }
+		ul.social li.rss a 							{ background-position: 0px -120px; }
+			ul.social li.rss a:hover 			{ background-position: -24px -120px; }
+		ul.social li.email a 						{ background-position: 0px -144px; }
+			ul.social li.email a:hover 		{ background-position: -24px -144px; }
+
+footer {
+	font-family: 'albertoramon', sans-serif;
+	color: #CDCDCD;
+	clear: both;
+	text-align: center;
+	cursor: default;
+	padding-top: 200px;
+}
+	footer p {
+		color: #CDCDCD;
+		font-size: 11px;
+		}
+
+
+h1 {
+	font-family: 'albertoramon', sans-serif;
+	font-size: 48px;
+	font-weight: normal;
+	letter-spacing: 0.05em;
+	color: #CDCDCD; /*text-shadow: 0px 3px 8px #2a2a2a;*/
+ }
+
+h2 {
+	font-family: 'albertoramon', sans-serif;
+	color: #CDCDCD;
+	font-size: 28px;
+	font-weight: normal;
+	letter-spacing: 0.05em;
+}
