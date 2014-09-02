@@ -1,0 +1,391 @@
+
+
+fieldset { margin-bottom: 1em; padding: 0.5em; }
+form { margin: 0px; padding: 0px; }
+img { border: 0px none; }
+table { border-collapse: collapse; }
+.clear-block:after { content: "."; display: block; height: 0px; clear: both; visibility: hidden; }
+.clear-block { display: inline-block; }
+.clear-block { display: block; }
+
+
+tbody { border-top: 1px solid rgb(204, 204, 204); }
+.breadcrumb { padding-bottom: 0.5em; }
+.form-item { margin-top: 1em; margin-bottom: 1em; }
+.form-item .description { font-size: 0.85em; }
+html.js fieldset.collapsed { border-bottom-width: 0px; border-left-width: 0px; border-right-width: 0px; margin-bottom: 0px; height: 1em; }
+html.js fieldset.collapsed * { display: none; }
+html.js fieldset.collapsed legend { display: block; }
+html.js fieldset.collapsible legend a { padding-left: 15px; background: url('menu-expanded.png') no-repeat scroll 5px 75% transparent; }
+html.js fieldset.collapsed legend a { background-image: url('menu-collapsed.png'); background-position: 5px 50%; }
+html.js fieldset.collapsible { position: relative; }
+html.js fieldset.collapsible legend a { display: block; }
+html.js fieldset.collapsible .fieldset-wrapper { overflow: auto; }
+
+
+ul.menu { list-style: none outside none; border: medium none; text-align: left; }
+ul.menu li { margin: 0px 0px 0px 0.5em; }
+li.leaf { list-style-type: square; list-style-image: url('menu-leaf.png'); padding: 0.2em 0.5em 0px 0px; margin: 0px; }
+ul.links { margin: 0px; padding: 0px; }
+ul.links.inline { display: inline; }
+ul.links li { display: inline; list-style-type: none; padding: 0px 0.5em; }
+.block ul { margin: 0px; padding: 0px 0px 0.25em 1em; }
+
+
+.fivestar-static-form-item .form-item, .fivestar-form-item .form-item { margin: 0px; }
+div.fivestar-widget-static { display: block; }
+div.fivestar-widget-static .star { float: left; width: 17px; height: 15px; overflow: hidden; text-indent: -999em; background: url('star.png') no-repeat scroll 0px 0px transparent; }
+div.fivestar-widget-static .star span.on { display: block; width: 100%; height: 100%; background: url('star.png') no-repeat scroll 0px -32px transparent; }
+div.fivestar-widget-static .star span.off { display: block; width: 100%; height: 100%; background: url('star.png') no-repeat scroll 0px 0px transparent; }
+
+
+html, body, div, span, p, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, form, fieldset, input, textarea { margin: 0px; padding: 0px; }
+img, abbr, acronym { border: 0px none; }
+p { margin: 1em 0px; }
+h1, h2, h3, h4, h5, h6 { margin: 0px 0px 0.5em; }
+ul, ol, dd { margin-bottom: 1.5em; margin-left: 2em; }
+ul { list-style-type: disc; }
+ol { list-style-type: decimal; }
+a { margin: 0px; padding: 0px; text-decoration: none; }
+a:link, a:visited {  }
+a:hover, a:focus, a:active { text-decoration: underline; }
+table { border-spacing: 0px; width: 100%; }
+td { margin: 0px; padding: 3px; }
+#skip a, #skip a:hover, #skip a:visited { height: 1px; left: 0px; overflow: hidden; position: absolute; top: -500px; width: 1px; }
+#skip a:active, #skip a:focus { background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); height: auto; padding: 5px 10px; position: absolute; top: 0px; width: auto; z-index: 99; }
+#skip a:hover { text-decoration: none; }
+.clearfix:after, .clearfix .inner:after { clear: both; content: "."; display: block; font-size: 0px; height: 0px; line-height: 0; overflow: auto; visibility: hidden; }
+.page, .row { margin: 0px auto; }
+.row, .nested, .block { overflow: hidden; }
+div.full-width { width: 100%; }
+.nested { float: left; margin: 0px; width: 100%; }
+#header-site-info { width: auto; }
+#site-name-wrapper { float: left; }
+#site-name, #slogan { display: block; }
+#site-name a:link, #site-name a:visited, #site-name a:hover, #site-name a:active { text-decoration: none; }
+#site-name a { outline: 0px none; }
+#header-group { overflow: visible; }
+#header-top-wrapper, #header-group-wrapper, #preface-top-wrapper, #main-wrapper, #preface-bottom, #content-top, #content-region, #content-bottom, #postscript-top, #postscript-bottom-wrapper, #footer-wrapper, #footer-message-wrapper { clear: both; }
+.block ul, .block ol { margin-left: 2em; padding: 0px; }
+ul.menu li, ul.links li { margin: 0px; padding: 0px; }
+#primary-menu { overflow: visible; }
+#primary-menu.block ul { margin-left: 0px; }
+.primary-menu ul li { float: left; list-style: none outside none; position: relative; }
+.primary-menu ul li a, .primary-menu ul li .nolink { display: block; padding: 0.75em 1em; text-decoration: none; }
+.primary-menu ul li:hover, .primary-menu ul li.sfHover, .primary-menu ul a:focus, .primary-menu ul a:hover, .primary-menu ul a:active { outline: 0px none; }
+.sf-menu li { list-style: none outside none; }
+.form-text { padding: 2px; }
+fieldset { margin: 15px 0px; padding: 10px; }
+html.js fieldset.collapsed { margin-bottom: 15px; }
+.block { float: left; margin-bottom: 1.5em; width: 100%; }
+.block .inner { position: relative; }
+div.node { margin-bottom: 1.5em; }
+
+body { font-family: Arial,Helvetica,Verdana,"Bitstream Vera Sans",sans-serif; font-size: 81.25%; line-height: 150%; }
+.form-text { font-family: Arial,Helvetica,Verdana,"Bitstream Vera Sans",sans-serif; }
+h1 { font-size: 180%; }
+h2 { font-size: 142.85%; }
+h3 { font-size: 114.28%; }
+.submitted, .terms { font-size: 95%; }
+.terms { line-height: 130%; }
+.node .read-more, .node .more-link, .node .links { font-size: 95%; }
+.breadcrumbs { font-size: 90%; line-height: 100%; }
+li, li.leaf, ul.menu li, .item-list ul li { line-height: 150%; }
+.form-item .description { font-size: 95%; line-height: 130%; }
+.font-size-13 { font-size: 81.25%; }
+.font-family-sans-serif-sm, .font-family-sans-serif-sm .form-text { font-family: Arial,Helvetica,"Nimbus Sans L",FreeSans,sans-serif; }
+
+
+.sf-menu, .sf-menu * { margin: 0px; padding: 0px; list-style: none outside none; }
+.sf-menu { line-height: 1; }
+.sf-menu li:hover { visibility: inherit; }
+.sf-menu li { float: left; position: relative; }
+.sf-menu a { display: block; position: relative; }
+.sf-menu { float: left; margin-bottom: 1em; }
+.sf-menu a { padding: 0.75em 1em; text-decoration: none; }
+.sf-menu a, .sf-menu a:visited {  }
+.sf-menu li {  }
+.sf-menu li:hover, .sf-menu li.sfHover, .sf-menu a:focus, .sf-menu a:hover, .sf-menu a:active { outline: 0px none; }
+
+
+* { padding: 0px; margin: 0px; border: 0px none; outline: 0px none; }
+input::-moz-focus-inner { border: 0px none; }
+body { font-size: 75%; }
+a, a:link, a:visited { color: rgb(74, 149, 210); text-decoration: none; }
+a:hover, a:focus, a:active { color: rgb(191, 0, 0); }
+#site-name { color: rgb(82, 82, 82); float: left; font-family: Myriad Pro,Myriad Web Pro Regular,Lucida Grande,Geneva,Trebuchet MS,sans-serif; font-size: 215.38%; font-weight: normal; letter-spacing: 3px; line-height: 100%; position: relative; text-transform: uppercase; top: 8px; white-space: nowrap; }
+#site-name.with-slogan { border-right: 1px solid rgb(221, 221, 221); padding-right: 15px; }
+.footer-message { font-size: 90%; }
+h1, h2, h3, h4 { font-weight: normal; }
+h1 { color: rgb(74, 149, 210); font-weight: bold; line-height: 125%; }
+h2 { font-size: 138.46%; line-height: 125%; }
+h3 { font-size: 115.38%; line-height: 125%; }
+html { background: none repeat scroll 0% 0% rgb(0, 0, 0); }
+body { background: none repeat scroll 0% 0% rgb(41, 41, 41); color: rgb(240, 240, 240); }
+#header-site-info { width: 100%; }
+#logo { float: left; margin: 0px 10px 0px 0px; }
+#site-name a:link, #site-name a:visited, #site-name a:hover, #site-name a:active { color: rgb(82, 82, 82); }
+#slogan { color: rgb(82, 82, 82); display: block; float: left; font-size: 115.38%; font-weight: bold; margin: 14px 15px 0px; }
+#page { padding: 1.5em 0px 0px; }
+.page-inner { border: 0px none; margin-bottom: 0px; padding: 0px; }
+#header-site-info { padding-bottom: 10px; }
+#header-site-info-inner { background: url('sitename-bg.png') no-repeat scroll right top rgb(255, 255, 255); height: 100%; padding: 30px 20px; }
+#primary-menu { float: right; margin: 0px; padding-bottom: 10px; width: auto; }
+#primary-menu.block { margin: 0px 10px; overflow: visible; position: relative; z-index: 101; }
+#primary-menu.block .inner { margin: 0px; }
+#primary-menu ul.menu { font-size: 107.8%; }
+#primary-menu ul.menu li { display: block; float: left; margin: 0px 0px 0px 5px; padding: 0px 0px 0px 10px; position: relative; }
+#primary-menu ul.menu li a:link, #primary-menu ul.menu li a:visited { color: rgb(153, 153, 153); display: block; height: 28px; line-height: 28px; padding: 0px 10px 0px 0px; text-decoration: none; }
+#primary-menu ul.menu li a:hover, #primary-menu ul.menu li a:focus, #primary-menu ul.menu li a:active, #primary-menu ul.menu li.active-trail a:link, #primary-menu ul.menu li.active-trail a:visited { color: rgb(255, 255, 255); }
+#primary-menu ul.menu li a:hover, #primary-menu ul.menu li:hover a, #primary-menu ul.menu li.hover a, #primary-menu ul.menu li.active-trail a:link, #primary-menu ul.menu li.active-trail a:visited { color: rgb(255, 255, 255); }
+#primary-menu ul.menu li:hover, #primary-menu ul.menu li.hover, #primary-menu ul.menu li.active-trail {  }
+#search-box { float: right; position: relative; top: 10px; width: auto; }
+#search-box.block .inner { margin: 0px; text-align: right; }
+#search-input .form-text { border: 1px solid rgb(213, 213, 213); color: rgb(41, 41, 41); float: left; margin-right: 10px; width: 150px; }
+#search-button { position: absolute; right: 0px; top: 3px; }
+.main-wrapper { margin-bottom: 20px; }
+.content { margin-bottom: 20px; }
+.footer-message-wrapper { background: none repeat scroll 0% 0% rgb(0, 0, 0); color: rgb(153, 153, 153); padding: 20px 0px 0px; text-align: center; }
+div.links, .node div.links, div.terms { background: none repeat scroll 0% 0% rgb(68, 68, 68); font-size: 107.6%; margin: 0px 0px 10px; padding: 5px 10px; }
+div.links ul, div.terms ul { margin: 0px; padding: 0px; }
+div.links ul li, div.terms ul li { color: rgb(198, 198, 198); font-weight: normal; line-height: 130%; }
+div.links ul li a:link, div.links ul li a:visited, div.terms ul li a:link, div.terms ul li a:visited { color: rgb(240, 240, 240); font-weight: bold; padding-right: 14px; }
+div.links ul li a:hover, div.links ul li a:focus, div.terms ul li a:hover, div.terms ul li a:focus { color: rgb(74, 149, 210); }
+.form-item .description { font-size: 84.6%; line-height: 150%; }
+fieldset { background: none repeat scroll 0% 0% rgb(62, 62, 62); border: 1px solid rgb(85, 85, 85); margin: 15px 0px; padding: 0px 15px 15px; }
+fieldset legend { display: block; font-size: 100%; background: none repeat scroll 0% 0% rgb(27, 27, 27); border: 1px solid rgb(85, 85, 85); font-weight: bold; padding: 0px 5px; }
+html.js fieldset.collapsed { background: none repeat scroll 0% 0% transparent; margin-bottom: 20px; }
+html.js fieldset.collapsible legend a { background: url('menu-expanded.gif') no-repeat scroll 0% 50% transparent; text-decoration: none; }
+html.js fieldset.collapsed legend a { background: url('menu-collapsed.gif') no-repeat scroll 0% 50% transparent; }
+html.js fieldset legend:hover, html.js fieldset legend.hover { background-color: rgb(85, 85, 85); border: 1px solid rgb(0, 0, 0); }
+tbody { border-top: 1px solid rgb(204, 204, 204); }
+td { padding: 3px 8px; }
+html { background: none repeat scroll 0% 0% transparent; }
+/*
+html { background: url('texture.jpg') repeat scroll 0% 0% rgb(18, 18, 18); }
+body { background: url('brillo.png') repeat-x fixed center center transparent; padding: 0px 40px; }
+*/
+html { background: rgb(18, 18, 18); }
+body { background: url('images/brillo.png') repeat-x fixed center center transparent; padding: 40px 50px; }
+body .row { max-width: none; min-width: 880px; }
+body .block .inner { margin: 0px; }
+body #page { padding: 0px; }
+h1 { color: rgb(74, 149, 210); font-weight: 100; line-height: 115%; font-size: 4em; border-bottom: 1px solid rgb(74, 149, 210); margin: 0px; }
+h2 { border-bottom: 1px solid rgb(255, 255, 255); padding: 0px 0px 5px; }
+.footer-message-wrapper { background: none repeat scroll 0% 0% transparent; }
+#content-region { text-shadow: 0px 2px 2px rgb(0, 0, 0); }
+div.node { width: 100%; }
+tbody { border: medium none; }
+.submitted, .terms { color: rgb(153, 153, 153); font-size: 70%; display: block; margin: 0.7em 0px 2em; }
+.jquery-corner { display: none; }
+#header-group-wrapper { margin-top: -5px; }
+#header-site-info { float: left; margin: 0px; padding: 0px; width: 100%; }
+#header-site-info-inner { background: none repeat scroll 0% 0% transparent; height: auto; padding: 0px; margin: 5px 0px 0px; }
+#header-site-info-inner #logo { margin: 0px; }
+#site-name-wrapper #site-name { top: 0px; border: medium none; }
+#site-name-wrapper #slogan { display: none; }
+#site-name-wrapper #site-name a { display: block; width: 113px; height: 72px; text-indent: -9999px; background: url('epub_lema.png') no-repeat scroll center center transparent; }
+#primary-menu ul.menu li a:hover, #primary-menu ul.menu li:hover a, #primary-menu ul.menu li.hover a, #primary-menu ul.menu li.active-trail a:link, #primary-menu ul.menu li.active-trail a:visited, #primary-menu ul.menu li:hover, #primary-menu ul.menu li.hover, #primary-menu ul.menu li.active-trail, #primary-menu ul.menu li:hover ul.menu, #primary-menu ul.menu li.hover ul.menu, #primary-menu ul.menu li.sfHover ul.menu, #primary-menu ul.menu li:hover ul.menu li, #primary-menu ul.menu li.hover ul.menu li, #primary-menu ul.menu li.sfHover ul.menu li, #primary-menu ul.menu li:hover ul.menu li.first, #primary-menu ul.menu li.hover ul.menu li.first, #primary-menu ul.menu li.sfHover ul.menu li.first, #primary-menu ul.menu li span.nolink:hover, #primary-menu ul.menu li span.nolink.hover, #primary-menu ul.menu li:hover span.nolink, #primary-menu ul.menu li.hover span.nolink, #primary-menu ul.menu li.active-trail span.nolink { background: none repeat scroll 0% 0% transparent; }
+#primary-menu { margin: 0px; width: auto; }
+#primary-menu.block { margin: 25px 0px 0px; overflow: visible; position: absolute; right: 220px; z-index: 101; }
+#primary-menu.block .inner { margin: 0px; }
+#primary-menu ul.menu { font-size: 13px; }
+#primary-menu ul.menu li { display: block; float: left; position: relative; margin: 0px; padding: 0px; background: none repeat scroll 0% 0% transparent; }
+#primary-menu ul.menu li a:link, #primary-menu ul.menu li a:visited { color: rgb(255, 255, 255); display: block; height: 29px; line-height: 29px; padding: 0px 0px 0px 20px; text-decoration: none; }
+#primary-menu ul.menu li a.menuicon:link, #primary-menu ul.menu li a.menuicon:visited { width: 29px; height: 29px; padding: 0px; margin: 0px 0px 0px 12px; background: url('menu.png') no-repeat scroll 0px 0px transparent; text-indent: -9999px; position: relative; }
+#primary-menu ul.menu li a:hover { top: -1px; }
+#primary-menu ul.menu li a:active { top: 0px; }
+#primary-menu ul.menu li a#info { background-position: -29px 0px; }
+#primary-menu ul.menu li a#info:hover { background-position: -29px center; }
+#primary-menu ul.menu li a#info:active, #pid-node-25 #primary-menu ul.menu li a#info { background-position: -29px bottom; }
+#primary-menu ul.menu li a#tutoriales { background-position: -58px 0px; }
+#primary-menu ul.menu li a#tutoriales:hover { background-position: -58px center; }
+#primary-menu ul.menu li a#tutoriales:active, #pid-node-33 #primary-menu ul.menu li a#tutoriales { background-position: -58px bottom; }
+#primary-menu ul.menu li a#libros { background-position: -116px 0px; }
+#primary-menu ul.menu li a#libros:hover { background-position: -116px center; }
+#primary-menu ul.menu li a#cuenta { background-position: -145px 0px; }
+#primary-menu ul.menu li a#cuenta:hover { background-position: -145px center; }
+#primary-menu ul.menu li a#rss { background-position: -203px 0px; }
+#primary-menu ul.menu li a#rss:hover { background-position: -203px center; }
+#primary-menu ul.menu li a#foro { background-position: -232px 0px; }
+#primary-menu ul.menu li a#foro:hover { background-position: -232px center; }
+#primary-menu ul.menu li a#Twitter { background-position: -290px 0px; }
+#primary-menu ul.menu li a#Twitter:hover { background-position: -290px center; }
+#search-box { width: 155px; height: 28px; top: 20px; margin: 0px 0px 0px 30px; float: right; position: relative; background: url('busqueda_form.png') repeat scroll 0px 0px transparent; }
+#search-box.block .inner { margin: 0px; }
+#search-input .form-text { width: 112px; height: 16px; padding: 4px 0px; position: absolute; left: 30px; top: 2px; border: medium none; background: none repeat scroll 0% 0% transparent; color: rgb(255, 255, 255); text-shadow: 0px 1px 1px rgb(0, 0, 0); font-style: italic; }
+#search-box #search-button { top: 0px; }
+#search-box .searchButtonPng { display: none; }
+#search-box .searchButtonPng:hover { background-position: -183px 0px; }
+#search-box .searchButtonPng:active { background-position: -211px 0px; }
+div.node-type-epub { background: url('images/tomo_sombra.png') no-repeat scroll -30px 360px transparent; }
+body.node-type-epub .terms, body.node-type-epub .links, body.node-type-epub .meta { display: none; }
+body.node-type-epub .eBook_epub { float: left; width: 377px; }
+body.node-type-epub .eBook_tomo { float: left; position: relative; }
+body.node-type-epub .eBook_portada { width: 377px; height: 554px; }
+body.node-type-epub .eBook_portada img, body.node-type-epub .eBook_portada span, body.node-type-epub .eBook_portada_txt { width: 320px; height: 480px; padding: 68px 27px 8px 30px; position: absolute; top: 0px; left: 0px; }
+body.node-type-epub .eBook_portada img { z-index: 1; }
+body.node-type-epub .eBook_portada span { background: url('images/tomo.png') no-repeat scroll 0px bottom transparent; z-index: 100; }
+body.node-type-epub .eBook_tomo.pag600 { background: url('images/tomo400.png') no-repeat scroll 0px top transparent; }
+body.node-type-epub .eBook_portada_txt { width: 260px; height: 420px; padding: 50px 30px 10px; margin: 68px 27px 8px 30px; background: url('images/tomo_cover.png') no-repeat scroll right bottom transparent; overflow: hidden; }
+.eBook_portada_txt h1, .eBook_portada_txt h2 { text-align: center; font-family: "Georgia",Times New Roman,Times,sans-serif; text-shadow: 0px -3px 2px rgb(0, 0, 0); }
+.eBook_portada_txt h1 { display: block ! important; color: rgb(255, 255, 255); font-weight: normal; border: medium none; font-size: 40px; }
+.eBook_portada_txt h2 { color: rgb(74, 149, 210); border-bottom: 1px solid rgb(74, 149, 210); font-size: 25px; margin-bottom: 30px; }
+.not-logged-in .eBook_flags { display: none; }
+.eBook_flags { width: 88px; height: 27px; padding: 8px 44px 6px 30px; position: absolute; top: 28px; left: 17px; z-index: 1000; background: url('flag_fnd.png') repeat scroll right center transparent; }
+body.node-type-epub .eBook_tomo.pag600 .eBook_flags { top: 20px; left: 22px; }
+body.node-type-epub .eBook_notas { float: left; width: 323px; font-size: 10px; line-height: 17px; margin: 10px 26px; color: rgb(34, 34, 34); text-shadow: none; text-align: left; font-family: Courier,monospace; }
+body.node-type-epub .eBook_notas_top { height: 52px; background: url('nota1.png') repeat scroll 0% 0% transparent; }
+body.node-type-epub .eBook_notas_mid { background: url('nota2.png') repeat-y scroll center top transparent; padding: 2px 30px 0px; }
+body.node-type-epub .eBook_notas_bot { height: 34px; background: url('nota3.png') repeat scroll 0% 0% transparent; }
+body.node-type-epub .eBook_notas p { margin: 0px; text-indent: 1.5em; }
+body.node-type-epub .eBook_autor h2 { padding: 70px 0px 0px; margin: 0px; font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; font-size: 18px; color: rgb(214, 106, 45); line-height: 1em; border: medium none; }
+body.node-type-epub .eBook_autor a { color: rgb(74, 149, 210); display: block; margin: 0px 0px 5px; }
+body.node-type-epub .eBook_autor a:hover { color: rgb(191, 0, 0); text-decoration: none; }
+body.node-type-epub h1 { display: none; }
+body.node-type-epub h1.eBook_titulo { display: block; margin: 0px; font-size: 40px; font-variant: small-caps; font-weight: lighter; color: rgb(255, 255, 255); border: medium none; font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; }
+body.node-type-epub h3.eBook_coleccion { display: block; margin: 5px 0px 0px; font-size: 14px; text-transform: uppercase; color: rgb(204, 204, 204); border: medium none; font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; }
+body.node-type-epub h3.eBook_coleccion a { color: rgb(204, 204, 204); }
+body.node-type-epub h3.eBook_coleccion a:hover { color: rgb(191, 0, 0); }
+body.node-type-epub .eBook_genero { margin: 10px 0px; text-transform: uppercase; color: rgb(153, 153, 153); font-size: 10px; }
+body.node-type-epub .eBook_genero .field-item { display: inline; }
+body.node-type-epub .eBook_genero a { color: rgb(153, 153, 153); }
+body.node-type-epub .eBook_genero a:hover { color: rgb(191, 0, 0); text-decoration: none; }
+.eBook_int { position: relative; padding-top: 10px; }
+.eBook_int .eBook_descarga_enlace { float: left; width: 150px; height: 57px; position: relative; z-index: 1; left: -3px; }
+.eBook_int .eBook_descarga_enlace a { width: 100%; height: 100%; display: block; text-indent: -9999px; float: left; }
+.eBook_int .eBook_descarga_enlace a.eBook_magnet { background-image: url('int_descarga.png'); }
+.eBook_int .eBook_descarga_enlace a.eBook_magnet:hover { background-position: center 0px ! important; }
+.eBook_int .eBook_descarga_enlace a.eBook_magnet:active { background-position: right 0px ! important; }
+.eBook_int_box { height: 73px; overflow: hidden; padding: 4px 0px 0px 7px; }
+.eBook_int_box table { width: auto; padding: 3px; }
+.eBook_int_box td { width: auto; height: 73px; background: url('int_caja.png') no-repeat scroll 0% 0% transparent; padding: 0px; }
+.eBook_int_box .box1 { width: 30px; background-position: 0px -2px; }
+.eBook_int_box .box2 { background-repeat: repeat-x; background-position: 0px -79px; }
+.eBook_int_box .box3 { width: 30px; background-position: 0px -156px; }
+.eBook_int_box_cont { margin: 0px -30px; }
+.eBook_int_box_blq { float: left; padding: 0px 15px; }
+.eBook_int_box_blq td { background: none repeat scroll 0% 0% transparent; height: auto; }
+.eBook_int .eBook_votos { height: 35px; margin: 5px 0px 0px; }
+.eBook_int .eBook_votos div.description { text-align: center; font-size: 10px; margin-top: 3px; }
+.eBook_int .eBook_votos .average-rating { display: none; }
+.eBook_int .eBook_votos .total-votes { color: rgb(153, 153, 153); }
+div.fivestar-widget-static .star { width: 15px; }
+.eBook_int .eBook_social { width: 78px; height: 26px; margin-top: 4px; text-indent: -9999px; }
+.eBook_int .eBook_social a { float: left; width: 26px; height: 26px; background: url('int_social.png') repeat scroll 0% 0% transparent; }
+.eBook_int .eBook_social a:hover { background-position: 0px -26px; }
+.eBook_int .eBook_social a:active { background-position: 0px -52px; }
+.eBook_int .eBook_social a.social-share-twitter { background-position: -26px 0px; }
+.eBook_int .eBook_social a.social-share-twitter:hover { background-position: -26px -26px; }
+.eBook_int .eBook_social a.social-share-twitter:active { background-position: -26px -52px; }
+.eBook_int .eBook_social a.social-share-googleplus { background-position: -52px 0px; }
+.eBook_int .eBook_social a.social-share-googleplus:hover { background-position: -52px -26px; }
+.eBook_int .eBook_social a.social-share-googleplus:active { background-position: -52px -52px; }
+.eBook_int .eBook_metas { margin-top: 3px; color: rgb(119, 119, 119); font-size: 10px; text-shadow: 0px 1px 1px rgb(0, 0, 0); }
+.eBook_int .eBook_metas div, .eBook_int .eBook_metas span { padding-top: 3px; padding-bottom: 3px; }
+.eBook_metas .eBook_paginas, .eBook_metas .eBook_visitas { float: left; height: 16px; line-height: 15px; padding-left: 17px; background-image: url('meta_ico.png'); background-repeat: no-repeat; background-position: 0px 6px; }
+.eBook_metas .eBook_visitas { background-position: 0px -26px; margin-left: 10px; }
+.eBook_metas .eBook_usuario a img { height: 12px; border: 1px solid rgb(68, 68, 68); margin-right: 6px; vertical-align: text-bottom; border-radius: 3px 3px 3px 3px; }
+.eBook_metas .eBook_usuario a:hover img { border: 1px solid rgb(191, 0, 0); }
+.eBook_metas .eBook_version { font-weight: bold; padding-right: 3px; }
+.eBook_metas .eBook_version b { font-weight: normal; font-size: 16px; }
+.eBook_metas .eBook_fecha, .eBook_metas .eBook_visitas, .eBook_metas .eBook_paginas { cursor: pointer; }
+.eBook_div fieldset.eBook_ayuda { max-width: 1000px; background: none repeat scroll 0% 0% transparent; border: medium none; margin: 0px; padding: 0px 0px 7px; }
+.eBook_div fieldset.eBook_ayuda.collapsed { margin: 0px; padding: 0px; }
+.eBook_div fieldset.eBook_ayuda legend.img { border: medium none; }
+.eBook_div fieldset.eBook_ayuda legend.img:hover { background: none repeat scroll 0% 0% transparent; border: medium none; }
+.node-type-epub .eBook_div fieldset.eBook_ayuda legend.img a { display: block; width: 150px; height: 28px; padding: 0px; position: absolute; left: -3px; top: -23px; text-indent: -9999px; background: url('int_ayuda.png') no-repeat scroll 0px 0px transparent; }
+.node-type-epub .eBook_div fieldset.eBook_ayuda legend.img a:hover { background-position: center center ! important; }
+.node-type-epub .eBook_div fieldset.eBook_ayuda legend.img a:active { background-position: right 0px ! important; }
+.node-type-epub .eBook_div fieldset.eBook_ayuda.collapsed legend.img a { background-position: 0px 0px; }
+fieldset.eBook_ayuda .fieldset-wrapper { padding: 0px 20px; margin-bottom: 12px; position: relative; top: 12px; font-size: 12.5px; background: none repeat scroll 0% 0% rgba(0, 0, 0, 0.5); border: 1px solid rgb(51, 51, 51); border-radius: 10px 10px 10px 10px; }
+.eBook_ayuda fieldset { border: 1px solid rgb(34, 34, 34); background: none repeat scroll 0% 0% transparent; border-radius: 5px 5px 5px 5px; }
+.eBook_ayuda fieldset .fieldset-wrapper { border: medium none; background: none repeat scroll 0% 0% transparent; padding: 0px; }
+.eBook_ayuda fieldset legend, .eBook_ayuda fieldset legend:hover { border: medium none ! important; background: none repeat scroll 0% 0% transparent ! important; }
+.eBook_ayuda fieldset legend a { color: rgb(255, 255, 255); }
+.eBook_ayuda dt { font-weight: bold; color: rgb(74, 149, 210); font-size: 14px; }
+body.node-type-epub .eBook_sinopsis { text-align: justify; font-style:italic; -moz-column-width: 26em; -moz-column-gap: 30px; max-width: 740px; margin-bottom: 40px; margin-left: 377px; }
+.node-type-epub .content { margin: 0px; }
+.eBook_epub .eBook_portada code { width: 162px; height: 164px; position: absolute; right: 26px; bottom: 4px; z-index: 101; text-indent: -9999px; display: block; background-position: right bottom; background-repeat: no-repeat; cursor: pointer; }
+.eBook_epub .eBook_portada .si { background-image: url('tomo_ok.png'); }
+.eBook_portada:hover code { opacity: 0.3; }
+#breadcrumbs { display: none; }
+img, abbr, acronym { vertical-align: sub; }
+
+.grid16-16 { width: 100%; }
+.block .inner { margin-left: 10px; margin-right: 10px; }
+body, div.full-width { min-width: 780px; }
+.row { max-width: 1320px; min-width: 780px; }
+.row.nested { min-width: 0px; }
+.fluid-100 .full-width .grid16-16 { width: 100%; }
+#page .grid16-16 .grid16-16 { width: 100%; }
+
+#form-div-text { 
+	margin-top: 30px;
+	float: left;
+	width: 400px;
+	font-style:normal;
+}
+
+#form-div { 
+	margin-top: 10px;
+	float: left;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	
+}
+
+input, textarea { 
+	padding: 8px;
+	border: 0;
+	font: normal 12px Verdana, Tahoma, sans-serif;
+	width: 200px;
+	background: url(../images/bg.png);
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	color: #f1f1f1;
+	-webkit-box-shadow: inset 0 1px 5px rgba(0, 0, 0, .5), 0 1px 0 rgba(255, 255, 255, .1), 0 -1px 0 rgba(0, 0, 0, .6);
+	-moz-box-shadow: inset 0 1px 5px rgba(0, 0, 0, .5), 0 1px 0 rgba(255, 255, 255, .1), 0 -1px 0 rgba(0, 0, 0, .6);
+	box-shadow: inset 0 1px 5px rgba(0, 0, 0, .5), 0 1px 0 rgba(255, 255, 255, .1), 0 -1px 0 rgba(0, 0, 0, .6);
+
+	}
+
+textarea { 
+	width: 375px;
+	max-width: 375px;
+	height: 80px;
+	line-height: 150%;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	margin-top: 5px;
+}
+
+input:hover, textarea:hover,
+input:focus, textarea:focus { 
+	-moz-box-shadow:0 0 8px lightblue;
+	-webkit-box-shadow:0 0 8px lightblue;
+	box-shadow:0 0 8px lightblue;
+}
+
+.form label { 
+	margin-left: 12px; 
+	font: 14px Helvetica, Arial, Sans-Serif;
+	color: #999; text-shadow: 0px 3px 8px #2a2a2a;
+}
+
+.submit input {
+	width: auto;
+	padding: 8px 18px;
+	background: rgb(214, 106, 45);
+	font: 12px Helvetica, Arial, Sans-Serif;
+	color: #FFFFFF;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	cursor:pointer;
+	margin-left: -1px;
+}
+
